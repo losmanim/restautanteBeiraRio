@@ -46,6 +46,8 @@ img {
 }
 
 .prev, .next {
+    cursor: pointer;
+
     position: absolute;
     top: 50%;
     width: auto;
@@ -258,13 +260,21 @@ nav a:hover {
 }
 
 .logo-placeholder em {
-    font-weight: bolder;
-    font-family: cursive;
     font-size: 2rem;
-    color: #30b504;
+    font-family: monospace;
 }
 
 .logo-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 10px rgba(13, 249, 1, 0.122);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+
     width: 150px;
     height: 150px;
     background: linear-gradient(45deg, #30b504, #4caf50);
