@@ -251,10 +251,17 @@ nav a:hover {
 }
 
 .logo-container {
-    background: white;
+    background: rgb(250, 213, 1);
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+.logo-placeholder em {
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 2rem;
+    color: #30b504;
 }
 
 .logo-placeholder {
@@ -266,7 +273,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgb(250, 213, 1);
     font-size: 1.2rem;
     font-weight: bold;
 }
