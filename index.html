@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Luiz estudante com ajuda de claude">
     <title>Restaurante Beira Rio - Alto Araguaia</title>
-    
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu_book_2" />  
     
 </head>
 
@@ -18,10 +22,10 @@
                 <p>O Melhor Preço da Cidade</p>
             </div>
             <nav>
-                <ul>                
+                <ul>
                     <li><a href="#inicio" onclick="rolarPara('inicio')">Início</a></li>
                     <li><a href="#cardapio" onclick="rolarPara('cardapio')">Cardápio</a></li>
-                    <li><a href="#sobre" onclick="rolarPara('sobre')">Sobre nós</a></li>
+                    <li><a href="#sobre" onclick="rolarPara('sobre')">Sobre</a></li>
                     <li><a href="#contato" onclick="rolarPara('contato')">Contato</a></li>
                 </ul>
             </nav>
@@ -58,56 +62,67 @@
         <main class="main-content">
             <section id="inicio" class="section-card">
                 <h2>🏠 Bem-vindos ao Restaurante Beira Rio</h2>
-                <p>Localizado no coração de Alto Araguaia-MT, o Restaurante Beira Rio oferece o melhor da culinária regional proximo, 30mts, do Rio Araguaia com serviços de marmita e marmitex familiar. Nossa especialidade são os pratos tipicos da região, preparados com muito carinho e tradição familiar.</p>
-                <p style="margin-top: 15px;">Venha conhecer nossos pratos típicos e desfrute de uma experiência gastronômica única às margens do rio Araguaia!</p>
+                <p>Localizado no coração de Alto Araguaia-MT, o Restaurante Beira Rio oferece o melhor da culinária
+                    regional proximo, 30mts, do Rio Araguaia com serviços de marmita e marmitex familiar. Nossa
+                    especialidade são os pratos tipicos da região, preparados com muito carinho e tradição familiar.</p>
+                <p style="margin-top: 15px;">Venha conhecer nossos pratos típicos e desfrute de uma experiência
+                    gastronômica única às margens do rio Araguaia!</p>
             </section>
 
             <section id="cardapio" class="section-card">
-                <h2>🐟 Cardápio Especial</h2>
+                <h2><span class="material-symbols-outlined" style="font-size: 3rem;">
+                        menu_book_2
+                    </span> Cardápio Especial</h2>
                 <p>Pratos preparados com ingredientes frescos da região:</p>
-                
-                <div class="prato" onclick="mostrarMensagem('Mãe preciso da sua ajuda com o cardápio')">
-                    <h3>Prato típico 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet reprehenderit optio doloremque error quia ipsa nam inventore accusamus nulla aut expedita, nemo officia, fugit voluptatibus id atque, laboriosam aspernatur. Tempore.</p>
-                    <div class="preco">R$ 00,00</div>
+
+                <div class="prato" onclick="mostrarMensagem('Venha saborear aqui ou peça que levamos até você')">
+                    <h3>Arroz com Pequi</h3>
+                    <p>Um dos pratos mais tradicionais da região é o arroz com pequi. Ele mistura o sabor especial do
+                        fruto com o arroz, geralmente servido com frango ou outras carnes.</p>
+                    <!-- <div class="preco"></div> -->
                 </div>
 
-                <div class="prato" onclick="mostrarMensagem('Oi mãe eu to desenvolvendo sites!')">
-                    <h3>Prato típico 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus laborum possimus odit officiis! Itaque nemo aspernatur labore, laboriosam nobis, nesciunt illum quae velit est dolor, quos ipsum facere quas?</p>
-                    <div class="preco">R$ 00,00</div>
+                <div class="prato" onclick="mostrarMensagem('Venha saborear aqui ou peça que levamos até você')">
+                    <h3>Vaca Atolada</h3>
+                    <p>m prato bem saboroso que mistura costela bovina cozida com mandioca até ficar bem macia, formando
+                        um caldo bem grosso e cheio de sabor.</p>
+                    <!-- <div class="preco"></div> -->
                 </div>
 
-                <div class="prato" onclick="mostrarMensagem('Farofa de Banana é uma delícia como acompanhamento!')">
+                <div class="prato" onclick="mostrarMensagem('Venha saborear aqui ou peça que levamos até você')">
                     <h3>Farofa de Banana</h3>
                     <p>Acompanhamento típico regional, preparado com banana da terra</p>
-                    <div class="preco">R$ 12,90</div>
+                    <!-- <div class="preco"></div> -->
                 </div>
 
-                <div class="prato" onclick="mostrarMensagem('Arroz Carreteiro é um prato típico do pantanal!')">
+                <div class="prato" onclick="mostrarMensagem('Venha saborear aqui ou peça que levamos até você')">
                     <h3>Arroz Carreteiro</h3>
                     <p>Prato tradicional do pantanal com carne seca e temperos especiais</p>
-                    <div class="preco">R$ 18,90</div>
+                    <!-- <div class="preco"></div> -->
                 </div>
             </section>
 
             <section id="sobre" class="section-card">
                 <h2>Nossa História</h2>
-                <p>O Restaurante Beira Rio nasceu em (que ano mesmo foi mãe?), quando a chefe da família decidiu, depois de uma volta pra casa da Belgica, compartilhar as receitas tradicionais passadas de geração em geração. Há mais de () anos servindo a comunidade de Alto Araguaia com amor e dedicação.</p>
-                <p style="margin-top: 15px;">Nossa missão é preservar a cultura gastronômica regional, oferecendo sempre produtos frescos e de qualidade, com o melhor preço da cidade.</p>
-                <p style="margin-top: 15px;"><strong>🏆 Premiado como "Melhor Restaurante Regional" em 2020, 2021 e 2022</strong></p>
+                <p>O Restaurante Beira Rio nasceu em (que ano mesmo foi mãe?), quando a chefe da família decidiu, depois
+                    de uma volta pra casa da Belgica, compartilhar as receitas tradicionais passadas de geração em
+                    geração. Há mais de () anos servindo a comunidade de Alto Araguaia com amor e dedicação.</p>
+                <p style="margin-top: 15px;">Nossa missão é preservar a cultura gastronômica regional, oferecendo sempre
+                    produtos frescos e de qualidade, com o melhor preço da cidade.</p>
+                <p style="margin-top: 15px;"><strong>🏆 Premiado como "Melhor Restaurante Regional" em 2020, 2021 e
+                        2022</strong></p>
             </section>
 
             <section id="contato" class="section-card">
                 <h2>Fale Conosco</h2>
                 <p>Entre em contato para reservas ou informações:</p>
-                
+
                 <form id="formularioContato" style="margin-top: 25px;">
                     <div class="form-group">
                         <label for="nome">👤 Nome completo:</label>
                         <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="telefone">📱 Telefone:</label>
                         <input type="tel" id="telefone" name="telefone" required placeholder="(66) 99999-9999">
@@ -117,12 +132,13 @@
                         <label for="email">📧 Email:</label>
                         <input type="email" id="email" name="email" placeholder="seu@email.com">
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="mensagem">💬 Mensagem:</label>
-                        <textarea id="mensagem" name="mensagem" required rows="4" placeholder="Conte-nos como podemos ajudá-lo..."></textarea>
+                        <textarea id="mensagem" name="mensagem" required rows="4"
+                            placeholder="Conte-nos como podemos ajudá-lo..."></textarea>
                     </div>
-                    
+
                     <button type="submit" class="btn">Enviar Mensagem</button>
                 </form>
             </section>
@@ -131,8 +147,8 @@
         <aside class="sidebar">
             <div class="sidebar-card">
                 <div class="logo-container">
-                    <div class="logo-placeholder">                        
-                        <small><strong>Restaurante</strong></small>                        
+                    <div class="logo-placeholder">
+                        <small><strong>Restaurante</strong></small>
                         <em>BeiraRio</em>
                     </div>
                 </div>
@@ -152,10 +168,10 @@
             <div class="sidebar-card">
                 <h3>Localização</h3>
                 <p><strong>Endereço:</strong><br>
-                Rui Barbosa, 03<br>
-                Alvorada<br>
-                Alto Araguaia - MT<br>
-                CEP: 78780-000</p>
+                    Rui Barbosa, 03<br>
+                    Alvorada<br>
+                    Alto Araguaia - MT<br>
+                    CEP: 78780-000</p>
                 <p style="margin-top: 15px;"><strong>📞 Telefone:</strong><br>(66) 99689-1678</p>
             </div>
         </aside>
@@ -168,4 +184,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
