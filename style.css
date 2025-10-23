@@ -27,6 +27,10 @@ body {
     overflow: hidden;
 }
 
+.slider a {
+    text-shadow: 0 0 10px orange;
+}
+
 .slides {
     
     margin: 0;
