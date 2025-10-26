@@ -151,6 +151,11 @@ nav a:hover {
     gap: 40px;
 }
 
+.main-content p {
+    font-size: 1.3rem;
+    text-shadow: 0 0 3px wheat;
+}
+
 .section-card {
     background: rgba(255,255,255,0.1);
     padding: 30px;
@@ -260,6 +265,32 @@ nav a:hover {
     border-radius: 15px;
     text-align: center;
     backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sidebar-card h3 {
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.1px;
+    border-bottom: 1px solid orange;
+    margin-bottom: 1rem;
+}
+
+.sidebar-card p {
+    text-shadow: 0 0 3px white;
+    font-size: 1.2rem;
+    text-align: justify;
+    
+}
+
+.sidebar-card img {
+    width: 1.5rem;
+    height: 1.5rem;    
 }
 
 .logo-container {
